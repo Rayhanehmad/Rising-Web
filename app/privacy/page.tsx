@@ -1,0 +1,3 @@
+import PageHero from "@/components/PageHero";
+export const metadata={title:"Privacy Policy"};
+export default function Privacy(){return <main><PageHero eyebrow="Legal" title="Privacy Policy" description="Basic privacy notice for the Rising Solution website."/><section className="section-pad"><div className="container-engineering max-w-3xl space-y-5 text-slate-600 leading-7"><p>This page should be updated with the company's final privacy policy, data-retention practices, contact details and applicable jurisdiction before production.</p><p>Contact-form information should only be collected, stored and used for legitimate business communication and handled according to the organization's privacy requirements.</p></div></section></main>}

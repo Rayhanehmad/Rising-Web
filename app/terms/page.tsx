@@ -1,0 +1,3 @@
+import PageHero from "@/components/PageHero";
+export const metadata={title:"Terms"};
+export default function Terms(){return <main><PageHero eyebrow="Legal" title="Terms of Use" description="Basic website terms placeholder."/><section className="section-pad"><div className="container-engineering max-w-3xl space-y-5 text-slate-600 leading-7"><p>This page should be replaced with the company's approved website terms before production.</p><p>Website information is intended for general information and does not replace project-specific engineering assessment, regulatory review or professional advice.</p></div></section></main>}
